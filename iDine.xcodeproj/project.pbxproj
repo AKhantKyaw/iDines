@@ -17,6 +17,7 @@
 		20486FA52A42DB8F00D95B2D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20486FA42A42DB8F00D95B2D /* Order.swift */; };
 		20486FA72A42E31400D95B2D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20486FA62A42E31400D95B2D /* ItemRow.swift */; };
 		20486FA92A42EC4200D95B2D /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20486FA82A42EC4200D95B2D /* ItemDetails.swift */; };
+		2098FDEB2A4C11B00096E609 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098FDEA2A4C11B00096E609 /* Checkout.swift */; };
 		20BCC3182A46E8390048C66D /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BCC3172A46E8390048C66D /* OrderView.swift */; };
 		20BCC31A2A46F1300048C66D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BCC3192A46F1300048C66D /* MainView.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		20486FA42A42DB8F00D95B2D /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		20486FA62A42E31400D95B2D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		20486FA82A42EC4200D95B2D /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
+		2098FDEA2A4C11B00096E609 /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
 		20BCC3172A46E8390048C66D /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		20BCC3192A46F1300048C66D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				20486FA82A42EC4200D95B2D /* ItemDetails.swift */,
 				20BCC3172A46E8390048C66D /* OrderView.swift */,
 				20BCC3192A46F1300048C66D /* MainView.swift */,
+				2098FDEA2A4C11B00096E609 /* Checkout.swift */,
 				20486FA02A42DB8100D95B2D /* menu.json */,
 				20486FA22A42DB8900D95B2D /* Menu.swift */,
 				20486FA42A42DB8F00D95B2D /* Order.swift */,
@@ -169,6 +172,7 @@
 				20486FA52A42DB8F00D95B2D /* Order.swift in Sources */,
 				20486FA72A42E31400D95B2D /* ItemRow.swift in Sources */,
 				20486FA92A42EC4200D95B2D /* ItemDetails.swift in Sources */,
+				2098FDEB2A4C11B00096E609 /* Checkout.swift in Sources */,
 				20486FA32A42DB8900D95B2D /* Menu.swift in Sources */,
 				20486F9F2A42DB6700D95B2D /* Helper.swift in Sources */,
 			);
