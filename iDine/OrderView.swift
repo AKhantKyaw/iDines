@@ -9,6 +9,10 @@ import SwiftUI
 
 struct OrderView: View {
     @EnvironmentObject var order : Order
+    func deleteItem (at offsets : IndexSet){
+        order.items.remove(atOffsets: offsets)
+        
+    }
     var body: some View {
         NavigationStack{
             List{
@@ -20,6 +24,7 @@ struct OrderView: View {
                             Spacer()
                         }
                     }
+                    .onDelete(perform:deleteItem)
                     
                 }
                 Section{
@@ -28,8 +33,12 @@ struct OrderView: View {
                         
                     }
                     .navigationTitle("Order")
+                    .toolbar{
+                        EditButton()
+                    }
+                    
                 }
-                
+                .disabled(order.items.isEmpty)
             }
         }
       
